@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@200&family=Nova+Square&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Antonio';
+}
+
+#logo{
+    margin: 10px;
+    text-align: center;
+    padding: 7px;
+    border:2px;
+    width: 120px;
+    height: 45px;
+    font-size: 15px;
+    background: #c12424;
+    color: #FFFFFF;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+
+.cart{
+    position: relative;
+    font-size: 20px;
+    padding:15px;
+}
+
+.cartAmount{
+    position: absolute;
+    top:17px;
+    right:-15px;
+    font-size: 18px;
+}
